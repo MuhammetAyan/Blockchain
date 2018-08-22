@@ -1,0 +1,3 @@
+C:\Users\Muhammet\Source\Repos\Blockchain\Blockchain\obj\Debug\Blockchain.njsprojAssemblyReference.cache
+C:\Users\Muhammet\Source\Repos\Blockchain\Blockchain\obj\Debug\Blockchain.njsproj.CoreCompileInputs.cache
+C:\Users\Muhammet\Source\Repos\Blockchain\Blockchain\bin\Microsoft.NodejsTools.WebRole.dll

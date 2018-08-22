@@ -2,8 +2,14 @@
   "name": "blockchain",
   "version": "0.0.0",
   "description": "Blockchain",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "main": "server.js",
   "author": {
     "name": "Muhammet"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
   }
 }
