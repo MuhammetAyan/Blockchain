@@ -1,7 +1,7 @@
 ﻿
 module.exports.a = function (req, res, next) {
     res.write("Hello");
-    if (req.url == "/")
+    if (req.url === "/")
         next();
     else
         res.end();
