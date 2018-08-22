@@ -29,6 +29,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Database\DataChain.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Network\net.js">
       <SubType>Code</SubType>
     </Compile>
@@ -39,7 +42,8 @@
   <ItemGroup>
     <Folder Include="Network\" />
     <Folder Include="Controller\" />
-    <Folder Include="Model\" />
+    <Folder Include="Database\" />
+    <Folder Include="Routers\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
